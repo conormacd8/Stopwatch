@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center; 
+  color: white;
+}
+
+body{
+  background: rgb(190, 98, 11);
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  font-family: monospace;
+}
+
+.btn-container{
+  display: flex;
+  gap: 10px;
+}
+
+button{
+  background: transparent;
+  border: white 1px solid;
+  padding: 1em 2.5em;
+  border-radius: 10px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+h1{
+  font-size: 5rem;
+  font-weight: 400;
+}
+
+.timer{
+  font-size: 4rem;
+  margin: 1em;
+}
